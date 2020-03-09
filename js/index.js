@@ -1,54 +1,5 @@
 (function(){
 
-    var data = {
-        quizContent: [
-            {
-                question: "Who is the founder of Quora?",
-                answer1: "Dick Costolo",
-                answer2: "Mark Zuckerberg",
-                answer3: "Adam D'Angelo",
-                fact:"The correct answer is Adam D'Angelo",
-                correctAnswer: 3
-            },
-            {
-                question: "Where is the Microsoft Corporation headquarters located?",
-                answer1: "Mountain View",
-                answer2: "Redmond",
-                answer3: "Cupertino",
-                fact:"The correct answer is Redmond",
-                
-                correctAnswer: 2
-            },
-            {
-                question:  "Which billion-dollar company purchased Instagram ?",
-                answer1: "Amazon",
-                answer2: "Facebook",
-                answer3: "Twitter",
-                fact:"The correct answer is Facebook",
-                correctAnswer: 2
-            },
-            {
-                question: "Which information-technology company was founded on April Fool's Day?",
-                answer1: "Microsoft",
-                answer2: "Amazon",
-                answer3: "Apple",
-                fact:"The correct answer is Apple",
-                correctAnswer: 3
-            },
-            {
-                question  : "Who is the present CEO of Yahoo!?",
-                answer1  : "Marissa Mayer",
-                answer2  : "Tim Cook",
-                answer3  : "Sheryl Sandberg",
-                fact:"The correct answer is Marissa Mayer",
-                correctAnswer: 1
-                  
-                    
-            }
-        ],
-        points: 0
-    };
-    
     var display = {
         getApp: document.getElementById('app'),
 
@@ -123,7 +74,7 @@
         // Displays final page of the quiz
         resultPage: function() {
             this.getApp.innerHTML = '<h1 class="h3">You have ' + data.points + ' question(s) answered correctly</h1>';
-            this.newElement('button', 'restart', 'Restart Quiz');
+            this.newElement('button', 'restart', 'Restart Again');
         },
         newElement: function(elem, elemId, elemText) {
             var newElem = document.createElement(elem);
