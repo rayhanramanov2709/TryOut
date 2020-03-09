@@ -20,9 +20,6 @@
     <icon src="icon.png" />
     
 <gap:platform name="android"/>
-<gap:platform name="ios"/>
-<gap:platform name="winphone"/>
-<plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
 <feature name="http://api.phonegap.com/1.0/camera" />
 <feature name="http://api.phonegap.com/1.0/file" /><!-- WRITE_EXTERNAL_STORAGE; required for camera to write to camera roll -->
 <feature name="Camera">
