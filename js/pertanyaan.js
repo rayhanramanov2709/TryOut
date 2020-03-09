@@ -10,12 +10,12 @@
                 correctAnswer: 2
             },
 			{
-                question  : "1Km = ? meter",
-                answer1  : "10000 meter",
-                answer2  : "1000 meter",
-                answer3  : "100 meter",
-                fact:"The correct answer is 1.000 meter",
-                correctAnswer: 2
+                question  : "1m = ? Km",
+                answer1  : "0,1 Km",
+                answer2  : "0,01 Km",
+                answer3  : "0,001 Km",
+                fact:"The correct answer is 0,001 meter",
+                correctAnswer: 3
             },
             {
                 question: "Who is the founder of Quora?",
