@@ -23,7 +23,6 @@
                 answer2: "Redmond",
                 answer3: "Cupertino",
                 fact:"The correct answer is Redmond",
-                
                 correctAnswer: 2
             },
             {
