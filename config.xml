@@ -8,14 +8,14 @@
     <preference name="phonegap-version" value="cli-6.5.0" />
 <!-- versionCode is optional and Android only -->
 
-  <name>LL</name>
+  <name>Rayhan</name>
 
   <description>
-      Scanner Barcode
+      Aplikasi Tryout
   </description>
 
-  <author href="" email="">
-      SP
+  <author href="" email="rayhanramanov2709@gmail.com">
+      rayhanramanov2709@gmail.com
   </author>
     <icon src="icon.png" />
     
