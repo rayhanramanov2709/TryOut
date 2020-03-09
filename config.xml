@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.phonegap.llaku"
+    id          = "com.phonegap.rayhan.tryout"
     versionCode = "10"
     version     = "1.0.0" >
     
@@ -20,14 +20,4 @@
     <icon src="icon.png" />
     
 <gap:platform name="android"/>
-<gap:platform name="ios"/>
-<gap:platform name="winphone"/>
-<plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
-<feature name="http://api.phonegap.com/1.0/camera" />
-<feature name="http://api.phonegap.com/1.0/file" /><!-- WRITE_EXTERNAL_STORAGE; required for camera to write to camera roll -->
-<feature name="Camera">
-    <param name="android-package" value="org.apache.cordova.camera.CameraLauncher"/>
-    <param name="ios-package" value="CDVCamera" />
-</feature>
-    <plugin name="phonegap-plugin-barcodescanner" />
 </widget>
