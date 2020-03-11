@@ -1,14 +1,19 @@
+var waktu_timer=5;
+var current_timestamp = 0;
+    var run;
+var control;
+var display;
 (function(){
-
-    var display = {
+    
+    display = {
         getApp: document.getElementById('app'),
 
         // Updates DOM on start/restart of the quiz
         mainPage: function() {
             var newEl = '<div class="quest-number"><p id="questNumber"></p></div><h1 id="questionDisplay" class="h3"></h1>';
-                newEl += '<ul><li><label><input type="radio" name="answers" id="input1" value="1"><span class="outer"><span class="inner"></span></span><div id="answerDisplay1"></div></label></li>';
-                newEl += '<li><label><input type="radio" name="answers" id="input2" value="2"><span class="outer"><span class="inner"></span></span><div id="answerDisplay2"></div></label></li>';
-                newEl += '<li><label><input type="radio" name="answers" id="input3" value="3"><span class="outer"><span class="inner"></span></span><div id="answerDisplay3"></div></label></li></ul>';
+                newEl += '<ul><li><label><input type="radio" name="answers" id="input1" value="1"><span class="outer"><span class="inner"></span></span><div class="font_besar" id="answerDisplay1"></div></label></li>';
+                newEl += '<li><label><input type="radio" name="answers" id="input2" value="2"><span class="outer"><span class="inner"></span></span><div class="font_besar" id="answerDisplay2"></div></label></li>';
+                newEl += '<li><label><input type="radio" name="answers" id="input3" value="3"><span class="outer"><span class="inner"></span></span><div class="font_besar" id="answerDisplay3"></div></label></li></ul>';
                 
                 newEl += '<div class="points-wrap"><p id="currentPoints"></p></div>';
 
@@ -50,6 +55,7 @@
             }
 
             if (control.count < sumOfQuestions - 1) {
+                start_countdown(0);
                 this.newElement('button', 'nextQuest', 'Next question');
             } else {
                 this.newElement('button', 'result', 'See your result');
@@ -85,12 +91,19 @@
         }
     };
 
-    var control = {
+    control = {
         init: function() {
             var start = document.getElementById('start') || document.getElementById('restart');
             start.addEventListener('click', function() {
                 display.mainPage();
                 control.update();
+//                waktu_timer=10;
+//                document.getElementById("timer").innerHTML= "Waktu tersisa "+waktu_timer + " Detik";
+//                setInterval(start_countdown(),10000 );
+                
+                current_timestamp = Math.floor(Date.now() / 1000);
+                start_countdown(1);
+                document.getElementById("timer").innerHTML= "Waktu tersisa "+ (waktu_timer) + " Detik";
             }, false);
         },
         update: function() {
@@ -139,6 +152,9 @@
                         control.count++;
                         display.removeAnswer(event);
                         control.update();
+                        current_timestamp = Math.floor(Date.now() / 1000);
+                        start_countdown(1);
+                        document.getElementById("timer").innerHTML= "Waktu tersisa "+ (waktu_timer) + " Detik";
                     }, false);
                 } else {
                     result.addEventListener('click', function() {
@@ -156,5 +172,65 @@
     };
 
     control.init();
+function next_pertanyaan()
+{   
+    display.addAnswer();
+    document.getElementById("submit").remove();
+    console.log(control);
+    var nextQuestion = document.getElementById('nextQuest'),
+    result = document.getElementById('result');
 
+    if (nextQuestion) {
+        nextQuestion.addEventListener('click', function(event) {
+            control.count++;
+            display.removeAnswer(event);
+            control.update();
+            current_timestamp = Math.floor(Date.now() / 1000);
+            start_countdown(1);
+            document.getElementById("timer").innerHTML= "Waktu tersisa "+ (waktu_timer) + " Detik";
+        }, false);
+    } else {
+        result.addEventListener('click', function() {
+            display.resultPage();
+            control.init();
+            control.count = 0;
+            data.points = 0;
+        }, false);
+    }
+}
+function start_countdown(mulai)
+{
+    var transactionTime = 0; //Initial time of timer
+    var timeStamp = Math.floor(Date.now() / 1000);
+    var deltaDelay = 1;
+    console.log(mulai);
+    if(mulai)
+    {
+            
+   run = setInterval(function () {
+//        if (transactionTime != 0 && (Math.floor(Date.now() / 1000) - timeStamp) > deltaDelay) {
+//                transactionTime += (Math.floor(Date.now() / 1000) - timeStamp);
+//            }
+            timeStamp = Math.floor(Date.now() / 1000);
+            selisih = timeStamp - current_timestamp;
+            if(mulai)
+            {
+                if(selisih > waktu_timer)
+                {
+                    next_pertanyaan();
+                    clearInterval(run);
+                    document.getElementById("timer").innerHTML= "Waktu tersisa 0 Detik";
+                } else {
+                    document.getElementById("timer").innerHTML= "Waktu tersisa "+ (waktu_timer-selisih) + " Detik";
+                }  
+            }
+        }, 1000);
+    }else {
+        console.log(run);
+        clearInterval(run);
+    }
+
+}    
 })();
+
+

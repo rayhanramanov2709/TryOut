@@ -227,3 +227,6 @@ sup, sub {
 sub {
     top: 0.4em;
 }
+.font_besar{
+    font-size: 18px;
+}
