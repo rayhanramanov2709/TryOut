@@ -20,4 +20,4 @@
     <icon src="icon.png" />
     
 <gap:platform name="android"/>
-</widget>
+</widget> 
