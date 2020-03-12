@@ -53,6 +53,12 @@ var display;
             } else {
                 this.newElement('button', 'result', 'Lihat Hasil Anda');
             }
+			  if (control.count < sumOfQuestions - 2) {
+                start_countdown(0);
+                this.newElement('button', 'nextQuest', 'Pertanyaan Sebelumnya');
+            } else {
+                this.newElement('button', 'result', 'Lihat Hasil Anda');
+            }
         },
         removeAnswer: function(event) {
             var getShowAnswer = document.getElementById('showAnswer');
