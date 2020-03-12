@@ -52,64 +52,64 @@
                 correctAnswer: 5
             },
 			{
-                question : "Jika f (x) = 2x2 + 3 dan g (x) = x + 2, maka (fog)(0) adalah....",
-                answer1  : "",
-                answer2  : "",
-                answer3  : "",
-				answer4  : "",
-				answer5  : "",
-                fact:"Jawaban yang benar adalah ",
+                question : "Himpunan penyelesaian sistem persamaan 2a - 4b - 6 = 0 dan 4a - 9b + 3 = 0 adalah....",
+                answer1  : "(-2, 15)",
+                answer2  : "(18, 2)",
+                answer3  : "(18,-2)",
+				answer4  : "33, 15",
+				answer5  : "(33,-15)",
+                fact:"",
+                correctAnswer: 4
+            },
+			{
+                question : "Di atas sebuah rak buku terdapat 10 buku matematika, 30 buku bahasa inggris, 20 buku sosiologi, dan 40 buku sejarah. Jika diambil sebuah buku secara acak, peluang yang terambil buku matematika adalah....",
+                answer1  : "1/10",
+                answer2  : "2/10",
+                answer3  : "3/10",
+				answer4  : "4/10",
+				answer5  : "5/10",
+                fact:"",
+                correctAnswer: 1
+            },
+			{
+                question : "Toko A, toko B, dan toko C menjual sepeda. Ketiga toko tersebut selalu berbelanja di sebuah distributor sepeda yang sama. Toko A harus membayar Rp5.500.000,00 untuk pembelian 5 sepeda jenis I dan 4 sepeda jenis II. Toko B harus membayar Rp3.000.000,00 untuk pembelian 3 sepeda jenis I dan 2 sepeda jenis II. Jika toko C membeli 6 sepeda jenis I dan 2 sepeda jenis II, maka toko C harus membayar....",
+                answer1  : "Rp3.500.000,00",
+                answer2  : "Rp4.000.000,00",
+                answer3  : "Rp4.500.000,00",
+				answer4  : "Rp5.000.000,00",
+				answer5  : "Rp5.500.000,00",
+                fact:"",
+                correctAnswer: 3
+            },
+			{
+                question : "Seorang peternak memelihara dua jenis hewan ternak yaitu kambing dan sapi. Jumlah semua hewan ternaknya adalah 150 ekor. Untuk memberi makan hewan-hewan tersebut setiap harinya, peternak membutuhkan biaya Rp10.000,00 untuk setiap ekor kambing dan Rp15.000,00 untuk setiap ekor sapi. Biaya yang dikeluarkan setiap hari untuk memberi makan ternak mencapai Rp1.850.00,00. Jika x menyatakan banyak kambing dan y menyatakan banyak sapi, model matematika yang tepat untuk permasalahan tersebut adalah...",
+                answer1  : "10x+15y=185 dan x+y=150",
+                answer2  : "2x+3y=370 dan x+y=150",
+                answer3  : "3x+2y=370 dan x+y=150",
+				answer4  : "2x+3y=185 dan x+y=150",
+				answer5  : "x+y=370 dan x+y=150",
+                fact:"",
                 correctAnswer: 2
             },
 			{
-                question : "",
-                answer1  : "",
-                answer2  : "",
-                answer3  : "",
-				answer4  : "",
-				answer5  : "",
-                fact:"Jawaban yang benar adalah ",
-                correctAnswer: 2
+                question : "Seorang pemilik toko ingin mengisi tokonya dengan sepatu laki-laki paling sedikit 100 pasang dan sepatu wanita 150 pasang. Toko tersebut hanya dapat menampung 400 pasang sepatu. Keuntungan setiap pasang sepatu laki-laki adalah Rp15.000,00 dan keuntungan sepatu wanita adalah Rp10.000,00. Jika banyak sepatu laki-laki tidak boleh melebihi 150 pasang dan sepatu wanita tidak boleh melebihi 250 pasang, maka keuntungan terbesar yang diperoleh oleh pemilik toko adalah....",
+                answer1  : "Rp3.500.000,00",
+                answer2  : "3.750.000,00",
+                answer3  : "4.000.000,00",
+				answer4  : "4.500.000,00",
+				answer5  : "4.750.000,00",
+                fact:"",
+                correctAnswer: 5
             },
 			{
-                question : "",
-                answer1  : "",
-                answer2  : "",
-                answer3  : "",
-				answer4  : "",
-				answer5  : "",
-                fact:"Jawaban yang benar adalah ",
-                correctAnswer: 2
-            },
-			{
-                question : "",
-                answer1  : "",
-                answer2  : "",
-                answer3  : "",
-				answer4  : "",
-				answer5  : "",
-                fact:"Jawaban yang benar adalah ",
-                correctAnswer: 2
-            },
-			{
-                question : "",
-                answer1  : "",
-                answer2  : "",
-                answer3  : "",
-				answer4  : "",
-				answer5  : "",
-                fact:"Jawaban yang benar adalah ",
-                correctAnswer: 2
-            },
-			{
-                question : "",
-                answer1  : "",
-                answer2  : "",
-                answer3  : "",
-				answer4  : "",
-				answer5  : "",
-                fact:"Jawaban yang benar adalah ",
-                correctAnswer: 2
+                question : "Zayden dan Zoe pergi ke kios pulsa. Zayden membeli 3 buah kartu perdana A dan 2 buah kartu perdana B. Untuk itu Zayden harus membayar Rp53.000,00. Zoe membeli 2 buah kartu perdana A dan sebuah kartu perdana B. Zoe harus membayar Rp32.500,00. Harga sebuah kartu perdana A dan sebuah kartu perdana B adalah....",
+                answer1  : "Rp8.000,00 dan Rp12.000,00",
+                answer2  : "Rp8.500,00 dan Rp12.000,00",
+                answer3  : "Rp12.000,00 dan Rp8.000,00",
+				answer4  : "Rp12.000,00 dan Rp8.500,00",
+				answer5  : "Rp12.500,00 dan Rp8.500,00",
+                fact:"",
+                correctAnswer: 4
             },
 			{
                 question : "",
