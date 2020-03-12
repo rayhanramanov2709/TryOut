@@ -112,44 +112,44 @@
                 correctAnswer: 4
             },
 			{
-                question : "",
-                answer1  : "",
-                answer2  : "",
-                answer3  : "",
-				answer4  : "",
-				answer5  : "",
-                fact:"Jawaban yang benar adalah ",
+                question : "Seorang petani mangga mencatat hasil panennya selama 12 hari pertama. Setiap harinya mengalami kenaikan tetap, dimulai hari pertama 12 kg, kedua 15 kg, ketiga 18 kg, dan seterusnya. Mangga tersebut dijual dengan harga Rp11.000,00 setiap kg. Jumlah hasil penjualan mangga selama 12 hari pertama adalah....",
+                answer1  : "2.495.000,00",
+                answer2  : "2.540.000,00",
+                answer3  : "3.762.000,00",
+				answer4  : "3.960.000,00",
+				answer5  : "7.524.000,00",
+                fact:"",
+                correctAnswer: 3
+            },
+			{
+                question : "Nilai minimum fungsi y = -cos3x -7 adalah....",
+                answer1  : "-9",
+                answer2  : "-8",
+                answer3  : "7",
+				answer4  : "8",
+				answer5  : "9",
+                fact:"",
                 correctAnswer: 2
             },
 			{
-                question : "",
-                answer1  : "",
-                answer2  : "",
-                answer3  : "",
-				answer4  : "",
-				answer5  : "",
-                fact:"Jawaban yang benar adalah ",
-                correctAnswer: 2
+                question : "Dalam sebuah kantong terdapat 4 kelereng merah dan 3 kelereng biru. Bila sebuah kelereng diambil dari dalam kantong maka peluang terambilnya kelereng merah adalah....",
+                answer1  : "1/7",
+                answer2  : "2/7",
+                answer3  : "3/7",
+				answer4  : "4/7",
+				answer5  : "1",
+                fact:"",
+                correctAnswer: 4
             },
 			{
-                question : "",
-                answer1  : "",
-                answer2  : "",
-                answer3  : "",
-				answer4  : "",
-				answer5  : "",
-                fact:"Jawaban yang benar adalah ",
-                correctAnswer: 2
-            },
-			{
-                question : "",
-                answer1  : "",
-                answer2  : "",
-                answer3  : "",
-				answer4  : "",
-				answer5  : "",
-                fact:"Jawaban yang benar adalah ",
-                correctAnswer: 2
+                question : "Kotak A berisi 2 bola merah dan 4 bola putih dan kotak B berisi 5 bola merah dan 3 bola putih. Dari masing-masing kotak diambil sebuah bola, maka peluang yang terambil bola merah dari kotak A dan bola putih dari kotak B adalah....",
+                answer1  : "1/8",
+                answer2  : "5/24",
+                answer3  : "1/4",
+				answer4  : "5/12",
+				answer5  : "3/4",
+                fact:"",
+                correctAnswer: 1
             },
 			{
                 question : "",
