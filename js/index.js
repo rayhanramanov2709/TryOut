@@ -15,7 +15,8 @@ var display;
                 newEl += '<li><label><input type="radio" name="answers" id="input2" value="2"><span class="outer"><span class="inner"></span></span><div class="font_besar" id="answerDisplay2"></div></label></li>';
                 newEl += '<li><label><input type="radio" name="answers" id="input3" value="3"><span class="outer"><span class="inner"></span></span><div class="font_besar" id="answerDisplay3"></div></label></li></ul>';
                  newEl += '<ul><li><label><input type="radio" name="answers" id="input4" value="4"><span class="outer"><span class="inner"></span></span><div class="font_besar" id="answerDisplay4"></div></label></li>';
-                newEl += '<div class="points-wrap"><p id="currentPoints"></p></div>';
+				newEl += '<ul><li><label><input type="radio" name="answers" id="input5" value="5"><span class="outer"><span class="inner"></span></span><div class="font_besar" id="answerDisplay5"></div></label></li>';
+			   newEl += '<div class="points-wrap"><p id="currentPoints"></p></div>';
 
             this.getApp.innerHTML = newEl;
         },
