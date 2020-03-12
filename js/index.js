@@ -1,4 +1,4 @@
-var waktu_timer=5;
+var waktu_timer=1000;
 var current_timestamp = 0;
     var run;
 var control;
@@ -14,7 +14,7 @@ var display;
                 newEl += '<ul><li><label><input type="radio" name="answers" id="input1" value="1"><span class="outer"><span class="inner"></span></span><div class="font_besar" id="answerDisplay1"></div></label></li>';
                 newEl += '<li><label><input type="radio" name="answers" id="input2" value="2"><span class="outer"><span class="inner"></span></span><div class="font_besar" id="answerDisplay2"></div></label></li>';
                 newEl += '<li><label><input type="radio" name="answers" id="input3" value="3"><span class="outer"><span class="inner"></span></span><div class="font_besar" id="answerDisplay3"></div></label></li></ul>';
-                
+                 newEl += '<ul><li><label><input type="radio" name="answers" id="input4" value="4"><span class="outer"><span class="inner"></span></span><div class="font_besar" id="answerDisplay4"></div></label></li>';
                 newEl += '<div class="points-wrap"><p id="currentPoints"></p></div>';
 
             this.getApp.innerHTML = newEl;
@@ -27,6 +27,8 @@ var display;
                 getAnswer1 = document.getElementById('answerDisplay1'),
                 getAnswer2 = document.getElementById('answerDisplay2'),
                 getAnswer3 = document.getElementById('answerDisplay3'),
+				 getAnswer4 = document.getElementById('answerDisplay4'),
+			    getAnswer5 = document.getElementById('answerDisplay5'),
                
                 getCurrentPoints = document.getElementById('currentPoints'),
                 sumOfQuestions = data.quizContent.length;
@@ -44,21 +46,21 @@ var display;
             var sumOfQuestions = data.quizContent.length;
 
             if(showMessage === 'correct') {
-                this.newElement('p', 'showAnswer', 'Correct Answer!');
+                this.newElement('p', 'showAnswer', 'Jawaban Anda Benar');
             } else {
                 
                 var x=data.quizContent[control.count].fact
               
                 
                 
-                this.newElement('p', 'showAnswer', 'Incorrect !'+x );
+                this.newElement('p', 'showAnswer', 'Jawaban Anda Salah !'+x );
             }
 
             if (control.count < sumOfQuestions - 1) {
                 start_countdown(0);
-                this.newElement('button', 'nextQuest', 'Next question');
+                this.newElement('button', 'nextQuest', 'Pertanyaan Selanjutnya');
             } else {
-                this.newElement('button', 'result', 'See your result');
+                this.newElement('button', 'result', 'Lihat Hasil Anda');
             }
         },
         removeAnswer: function(event) {
@@ -79,8 +81,8 @@ var display;
 
         // Displays final page of the quiz
         resultPage: function() {
-            this.getApp.innerHTML = '<h1 class="h3">You have ' + data.points + ' question(s) answered correctly</h1>';
-            this.newElement('button', 'restart', 'Restart Again');
+            this.getApp.innerHTML = '<h1 class="h3">Kamu punya ' + data.points + ' Jawaban yang dijawab dengan benar</h1>';
+            this.newElement('button', 'restart', 'Ulang lagi');
         },
         newElement: function(elem, elemId, elemText) {
             var newElem = document.createElement(elem);
