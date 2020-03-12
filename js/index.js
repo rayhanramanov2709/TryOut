@@ -47,17 +47,6 @@ var display;
         addAnswer: function(showMessage) {
             var sumOfQuestions = data.quizContent.length;
 
-            if(showMessage === 'correct') {
-                this.newElement('p', 'showAnswer', 'Jawaban Anda Benar');
-            } else {
-                
-                var x=data.quizContent[control.count].fact
-              
-                
-                
-                this.newElement('p', 'showAnswer', 'Jawaban Anda Salah !'+x );
-            }
-
             if (control.count < sumOfQuestions - 1) {
                 start_countdown(0);
                 this.newElement('button', 'nextQuest', 'Pertanyaan Selanjutnya');
