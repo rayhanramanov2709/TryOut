@@ -6,6 +6,8 @@
                 answer1  : "10000 meter",
                 answer2  : "1000 meter",
                 answer3  : "100 meter",
+				answer4  : "1000000 meter",
+				answer5 : "1 meter",
                 fact:"The correct answer is 1.000 meter",
                 correctAnswer: 2
             },

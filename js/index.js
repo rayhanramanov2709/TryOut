@@ -27,10 +27,10 @@ var display;
                 getAnswer1 = document.getElementById('answerDisplay1'),
                 getAnswer2 = document.getElementById('answerDisplay2'),
                 getAnswer3 = document.getElementById('answerDisplay3'),
-				 getAnswer4 = document.getElementById('answerDisplay4'),
+				getAnswer4 = document.getElementById('answerDisplay4'),
 			    getAnswer5 = document.getElementById('answerDisplay5'),
                
-                getCurrentPoints = document.getElementById('currentPoints'),
+               
                 sumOfQuestions = data.quizContent.length;
                 
             getQuestNumber.innerHTML = control.count + 1 + '/' + sumOfQuestions;
@@ -38,9 +38,10 @@ var display;
             getAnswer1.innerHTML = data.quizContent[control.count].answer1;
             getAnswer2.innerHTML = data.quizContent[control.count].answer2;
             getAnswer3.innerHTML = data.quizContent[control.count].answer3;
-         
-            getCurrentPoints.innerHTML = 'Points:' + ' ' + data.points;
-            this.newElement('button', 'submit', 'Submit Answer');
+			getAnswer4.innerHTML = data.quizContent[control.count].answer4;
+			getAnswer5.innerHTML = data.quizContent[control.count].answer5;
+            
+            this.newElement('button', 'submit', 'Jawab');
         },
         addAnswer: function(showMessage) {
             var sumOfQuestions = data.quizContent.length;
