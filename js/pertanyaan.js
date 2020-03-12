@@ -52,7 +52,7 @@
                 correctAnswer: 5
             },
 			{
-                question : "",
+                question : "Jika f (x) = 2x2 + 3 dan g (x) = x + 2, maka (fog)(0) adalah....",
                 answer1  : "",
                 answer2  : "",
                 answer3  : "",
