@@ -8,8 +8,32 @@
                 answer3  : "100 meter",
 				answer4  : "1000000 meter",
 				answer5  : "10000000 meter",
-                fact:"The correct answer is 1.000 meter",
+                fact:"Jawaban yang benar adalah 1.000 meter",
                 correctAnswer: 2
+            },
+			{
+                question  : "1m = ? Km",
+                answer1  : "0,1 Km",
+                answer2  : "0,01 Km",
+                answer3  : "0,001 Km",
+                fact:"The correct answer is 0,001 meter",
+                correctAnswer: 3
+            },
+			{
+                question  : "1m = ? Km",
+                answer1  : "0,1 Km",
+                answer2  : "0,01 Km",
+                answer3  : "0,001 Km",
+                fact:"The correct answer is 0,001 meter",
+                correctAnswer: 3
+            },
+			{
+                question  : "1m = ? Km",
+                answer1  : "0,1 Km",
+                answer2  : "0,01 Km",
+                answer3  : "0,001 Km",
+                fact:"The correct answer is 0,001 meter",
+                correctAnswer: 3
             },
 			{
                 question  : "1m = ? Km",
