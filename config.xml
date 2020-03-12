@@ -8,10 +8,10 @@
     <preference name="phonegap-version" value="cli-6.5.0" />
 <!-- versionCode is optional and Android only -->
 
-  <name>Quiz</name>
+  <name>TryOut</name>
 		
   <description>
-      Aplikasi Quiz Sejarah
+      TryOut Matematika
   </description>
 
   <author href="" email="rayhanramanov2709@gmail.com">
