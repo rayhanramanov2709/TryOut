@@ -53,7 +53,7 @@ var display;
             } else {
                 this.newElement('button', 'result', 'Lihat Hasil Anda');
             }
-			  if (control.count < sumOfQuestions - 2) {
+			  if (control.count < sumOfQuestions - 1) {
                 start_countdown(0);
                 this.newElement('button', 'nextQuest', 'Pertanyaan Sebelumnya');
             } else {
