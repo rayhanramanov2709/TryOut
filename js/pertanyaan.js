@@ -48,8 +48,8 @@
                 answer3  : "0,26",
 				answer4  : "0,30",
 				answer5  : "0,36",
-                fact:"Jawaban yang benar adalah ",
-                correctAnswer: 2
+                fact:"",
+                correctAnswer: 5
             },
 			{
                 question : "",
