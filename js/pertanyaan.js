@@ -8,7 +8,7 @@
                 answer3  : "1 < m < 2",
 				answer4  : "1 < m < 3",
 				answer5  : "2 < m < 3",
-                fact:"Jawaban yang benar adalah 1< m < 2",
+                fact:"",
                 correctAnswer: 3
             },
 			{
