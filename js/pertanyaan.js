@@ -2,86 +2,314 @@
         quizContent: [
             
             {
-                question  : "1Km = ? meter",
-                answer1  : "10000 meter",
-                answer2  : "1000 meter",
-                answer3  : "100 meter",
-				answer4  : "1000000 meter",
-				answer5  : "10000000 meter",
-                fact:"Jawaban yang benar adalah 1.000 meter",
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
                 correctAnswer: 2
             },
 			{
-                question  : "1m = ? Km",
-                answer1  : "0,1 Km",
-                answer2  : "0,01 Km",
-                answer3  : "0,001 Km",
-                fact:"The correct answer is 0,001 meter",
-                correctAnswer: 3
-            },
-			{
-                question  : "1m = ? Km",
-                answer1  : "0,1 Km",
-                answer2  : "0,01 Km",
-                answer3  : "0,001 Km",
-                fact:"The correct answer is 0,001 meter",
-                correctAnswer: 3
-            },
-			{
-                question  : "1m = ? Km",
-                answer1  : "0,1 Km",
-                answer2  : "0,01 Km",
-                answer3  : "0,001 Km",
-                fact:"The correct answer is 0,001 meter",
-                correctAnswer: 3
-            },
-			{
-                question  : "1m = ? Km",
-                answer1  : "0,1 Km",
-                answer2  : "0,01 Km",
-                answer3  : "0,001 Km",
-                fact:"The correct answer is 0,001 meter",
-                correctAnswer: 3
-            },
-            {
-                question: "Who is the founder of Quora?",
-                answer1: "Dick Costolo",
-                answer2: "Mark Zuckerberg",
-                answer3: "Adam D'Angelo",
-                fact:"The correct answer is Adam D'Angelo",
-                correctAnswer: 3
-            },
-            {
-                question: "Where is the Microsoft Corporation headquarters located?",
-                answer1: "Mountain View",
-                answer2: "Redmond",
-                answer3: "Cupertino",
-                fact:"The correct answer is Redmond",
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
                 correctAnswer: 2
             },
-            {
-                question:  "Which billion-dollar company purchased Instagram ?",
-                answer1: "Amazon",
-                answer2: "Facebook",
-                answer3: "Twitter",
-                fact:"The correct answer is Facebook",
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
                 correctAnswer: 2
             },
-            {
-                question: "Which information-technology company was founded on April Fool's Day?",
-                answer1: "Microsoft",
-                answer2: "Amazon",
-                answer3: "Apple",
-                fact:"The correct answer is Apple",
-                correctAnswer: 3
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
             },
-            {
-                question  : "Who is the present CEO of Yahoo!?",
-                answer1  : "Marissa Mayer",
-                answer2  : "Tim Cook",
-                answer3  : "Sheryl Sandberg",
-                fact:"The correct answer is Marissa Mayer",
-                correctAnswer: 1   
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
+            },
+			{
+                question : "",
+                answer1  : "",
+                answer2  : "",
+                answer3  : "",
+				answer4  : "",
+				answer5  : "",
+                fact:"Jawaban yang benar adalah ",
+                correctAnswer: 2
             },
         ],
         points: 0
