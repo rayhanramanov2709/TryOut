@@ -251,7 +251,6 @@
                 fact:"",
                 correctAnswer: 2
             },
-
         ],
         points: 0
     };
